@@ -1,8 +1,12 @@
 import React from "react";
-import { AppService } from "../../services/app.service"
+import { AppService } from "../../services/app.service";
 
 function SearchRepository(): JSX.Element {
-  return <div></div>;
+  return (
+    <>
+      <div></div>
+    </>
+  );
 }
 
 export { SearchRepository };

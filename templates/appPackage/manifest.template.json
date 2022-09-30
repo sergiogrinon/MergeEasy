@@ -38,7 +38,7 @@
     "staticTabs": [
         {
             "entityId": "index0",
-            "name": "Personal Tab",
+            "name": "Merge Easy",
             "contentUrl": "{{{state.fx-resource-frontend-hosting.endpoint}}}{{{state.fx-resource-frontend-hosting.indexPath}}}/tab",
             "websiteUrl": "{{{state.fx-resource-frontend-hosting.endpoint}}}{{{state.fx-resource-frontend-hosting.indexPath}}}/tab",
             "scopes": [
