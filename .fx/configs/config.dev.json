@@ -4,7 +4,7 @@
     "manifest": {
         "appName": {
             "short": "MergeEasy",
-            "full": "Full name for MergeEasy"
+            "full": "MergeEasy"
         },
         "description": {
             "short": "Short description of MergeEasy",
