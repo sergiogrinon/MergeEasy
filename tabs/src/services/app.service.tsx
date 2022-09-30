@@ -11,20 +11,20 @@ export class AppService {
     return await response.json();
   }
 
-  public async updateComment(user: any) {
+  public async updateComment(comment: any) {
     const response = await fetch(endpoints.default.UPDATE_COMMENT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ user }),
+      body: JSON.stringify({ comment }),
     });
     return await response.json();
   }
 
-  public async createComment(user: any) {
+  public async createComment(comment: any) {
     const response = await fetch(endpoints.default.CREATE_COMMENT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ user }),
+      body: JSON.stringify({ comment }),
     });
     return await response.json();
   }
