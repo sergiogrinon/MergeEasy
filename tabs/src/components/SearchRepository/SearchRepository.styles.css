@@ -1,0 +1,11 @@
+.searchBox {
+    background-color: rgba(101, 101, 101, 0.491);
+    max-width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.textInput {
+    width: 500px;
+}
